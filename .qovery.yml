@@ -1,0 +1,11 @@
+---
+application:
+  name: "alambrado"
+  project: "Alambrado"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-alambrado"
+  routes:
+  - application_name: "alambrado"
+    paths:
+    - "/*"
